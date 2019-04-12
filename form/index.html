@@ -5,37 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Zadanie #16429: 1-formularz-html5</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Application for Admission</h1>
+    <div id="title"><h1>Application for Admission</h1></div>
     <form action="https://formspree.io/yuliyab.design@gmail.com" method="POST">
-      <label for="firstName">First name:</label><br>
-      <input type="text" name="firstName" id="firstName" placeholder="Enter your first name"><br>
-      <label for="lastName">Last name:</label><br>
-      <input type="text" name="lastName" id="lastName" placeholder="Enter your last name"><br/>
-      <label for="email">Email:</label><br>
+      <label for="firstName">First name:</label>
+      <input type="text" name="firstName" id="firstName" placeholder="Enter your first name">
+      <label for="lastName">Last name:</label>
+      <input type="text" name="lastName" id="lastName" placeholder="Enter your last name">
+      <label for="email">Email:</label>
       <input type="email" name="_replyto" id="email" placeholder="Enter your email">
-      <br/>
-      <label for="phone">Phone: </label><br>
+      <label for="phone">Phone: </label>
       <input type="tel" name="phone" id="phone" placeholder="Enter your phone number">
-      <p>
+      
          <label for="city">City: </label>
          <select name="city" id="city">
           <option value="Krakow">Krakow</option>
           <option value="Warszawa">Warszawa</option>
           <option value="Gdansk">Gdansk</option>
          </select>
-      </p>
-      <p>Gender: 
-         <label><input type="radio" name="gender" value="female" id="female">Female: </label>
-         <label><input type="radio" name="gender" value="male" id="male">Male: </label>
-      </p>
+      
+      <label>Gender:</label>
+         <input type="radio" name="gender" value="female" id="female">Female: 
+         <input type="radio" name="gender" value="male" id="male">Male: 
       <p>
          <label for="message">Message: </label><br/>
          <textarea name="message" id="message" cols="30" rows="10"></textarea>
       </p>
       <label>
-         <input type="checkbox" name="agreement">
+         <input type="checkbox" name="agreement" id="agreement">
           I agree to the <a href ="#">terms of service</a>
       </label>
       <input type="submit" value="Send"/>
