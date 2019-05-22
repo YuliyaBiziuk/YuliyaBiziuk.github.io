@@ -1,0 +1,26 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  text-align: center;
+  color:#aaa;
+}
+.accordion{
+  width:980px;
+  margin:0px auto;
+}
+h1{
+  font-weight:400;
+  font-family:'Raleway',sans-serif;
+
+}
+hr{
+  width:300px;
+}
+.btn{
+  color:#db924a;
+}
+.btn:hover{
+  text-decoration: underline;
+  color:#aaa;
+}
